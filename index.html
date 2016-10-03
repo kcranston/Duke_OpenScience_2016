@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Open Tree of Life</title>
+		<title>"Open" in Open Tree of Life</title>
 
-		<meta name="description" content="Slides for Duke SDG talk">
+		<meta name="description" content="Slides for Duke Open Science talk">
 		<meta name="author" content="Karen Cranston">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -43,26 +43,21 @@
 			<div class="slides">
 				<section id="titleSlide">
 					<img src="assets/OpenTree_leaf_logo.png">
-					<h3>A comprehensive, online, updateable tree of life</h3>
+					<p>Karen Cranston, Duke Biology, <a href="https://twitter.com/kcranstn">@kcranstn</a></p>
 					<p>
-						<small><a href="https://github.com/kcranston/OpenTree_NSF_2016">https://github.com/kcranston/OpenTree_NSF_2016</a></small>
+						<small><a href="https://github.com/kcranston/Duke_OpenScience_2016">https://github.com/kcranston/Duke_OpenScience_2016</a></small>
 					</p>
 				</section>
 
-				<section>
-					<h1>Where is the tree of life?</h1>
+				<section data-background="assets/sciam_circle_life.jpg">
 				</section>
 
-				<section>
-					<p>
-						<img width="800" src="assets/atols.png">
-					</p>
-				</section>
-
-				<section>
-					<p>
-						<img src="assets/scopus_phylogeny.png">
-					</p>
+				<section data-background="assets/sciam_circle_life.jpg">
+					<p style="background-color:white;">Engage community in creating a tree of life that is:<br>
+					1. Complete<br>
+					2. Online<br>
+					3. Constantly updated
+				</p>
 				</section>
 
 				<section>
@@ -79,151 +74,77 @@
 				</section>
 
 				<section>
-					<h2>What do we know about the tree?</h2>
-					<h2>Can I browse / search / download it?</h2>
+					<p>
+						<img width="800" src="assets/linnaeus_darwin.jpeg">
+					</p>
 				</section>
 
 				<section>
+					<p>
+						<img width="800" src="assets/atols.png">
+					</p>
+				</section>
+
+				<section data-background="assets/WiegmannPNAS.png">
+				</section>
+
+				<section data-background="assets/WiegmannPNAS.png">
+					<p><img width="500" src="assets/WiegmannFlyTree.jpg" style="float: right"></p>
+				</section>
+
+				<section>
+					<p>
+						<img src="assets/using_trees.png">
+					</p>
+				</section>
+
+				<section>
+					<p>
+						<img src="assets/fractionTreesArchived.png">
+					</p>
+				</section>
+
+				<section>
+					<p>
+						<img src="assets/overview.png">
+					</p>
+				</section>
+
+				<!-- <section>
 					<div class="ulist">
 						<img src="assets/circleTreeRedBlue.png" width="60%" style="float: left">
 						<ul style="width: 30%;">
-							<p>Summarize existing knowledge into a tree that is:</p>
+							<p>Tree of life that is:</p>
 							<p>1. Complete</p>
 							<p>2. Online</p>
 							<p>3. Updateable</p>
 						</ul>
 					</div>
-				</section>
+				</section> -->
 
 				<section>
-					<h1>Status</h1>
+					<p>
+						<img width="900" src="assets/motivatingDeposition.png">
+					</p>
 				</section>
 
-				<section id="people">
-					<p>Original funding (2012 - 2015): 11 PIs, 10 institutions</p>
-					<p>Supplement (2015 - present): Cranston, Holder, Smith</p>
-					<p>
-					<div class="ctr w50">
-	    			<img width="800" src="assets/opentree_people.png">
-	  			</div>
+				<section data-background="assets/sciam_circle_life.jpg">
+					<p style="background-color:white;">Tree of Life v 7.0<br>
+						2.5 million species<br>
+						3582 published studies<br>
+						8022 trees<br>
+						146 curators<br>
+						5795 study database edits
 				</p>
 				</section>
 
 				<section>
-						<p>
-							<img src="assets/overview.png">
-						</p>
-				</section>
-
-				<section>
-					<h2>Two Greatest Challenges</h2>
-					<h3>(Technical and social)</h3>
-					<p>I. Publishing tree files not a community norm</p>
-				</section>
-
-				<section>
-						<p>
-							<img width="800" src="assets/fractionTreesArchived.png">
-						</p>
-				</section>
-
-				<section>
-					<h2>phylesystem</h2>
-					<p>A git-based data store for community-curated phylogenetic estimates. <a href="http://dx.doi.org/10.1093/bioinformatics/btv276">Bioinformatics (2015) 31 (17): 2794-2800</a></p>
-					<ul>
-						<li>7757 trees from 3401 studies</li>
-						<li>4779 commits from 117 curators (90 non-opentree)</li>
-						<li>git backend + python API + curation application</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Biggest challenges</h2>
-					<h3>(Technical and social)</h3>
-					<p>I. Publishing tree files not a community norm</p>
-					<p>II. Taxonomy resources are incomplete and out of date</p>
-				</section>
-
-				<section>
-					<h2>Taxonomy resources</h2>
-						<ul>
-						<li>Many taxonomy databases; differ in coverage and fitness</li>
-						<li>Long lag: taxonomy publication -> taxonomy databases</li>
-						<ul>
-							<li>Taxa and names missing</li>
-							<li>Relationships out of date</li>
-						</ul>
-						<li>Much data not openly available</li>
-						</ul>
-				</section>
-
-				<section>
-					<h2>Open Tree Taxonomy</h2>
-					<p>
-						<img  width="800" src="assets/ott_stats.png">
-					</p>
-					<ul>
-						<li>7 input taxonomies + user-contributed patches</li>
-						<li>clade-based input priority</li>
-						<li>TNRS services to resolve synonyms, homonyms, etc</li>
-					</ul>
-				</section>
-
-				<section>
-					<p>
-						<img  width="850" src="assets/PNAS.png">
-					</p>
-					<p>
-						<img  width="650" src="assets/synth_stats.png">
-					</p>
-				</section>
-
-				<!-- <section>
-						<p>
-							<img  width="800" src="assets/sciam_circle_life.jpg">
-						</p>
-				</section> -->
-
-				<section>
-						<p>
-							<img src="assets/impactStory_PNAS.png">
-						</p>
-				</section>
-
-				<section>
-					<h1>Infrastructure</h1>
-				</section>
-
-				<section>
-					<h2>Infrastructure</h2>
-					<p><strong>bold</strong> = version 2.0</p>
-					<ul>
-						<li>Web applications:</li>
-							<ul>
-								<li><dt>study curator</dt></li>
-								<li>browsers for tree and for taxonomy</li>
-							</ul>
-						<li>Pipelines:</li>
-							<ul>
-								<li>taxonomy merging</li>
-								<li><dt>tree synthesis</dt></li>
-							</ul>
-						<li>Databases:</li>
-							<ul>
-								<li><strong>tree store</strong> (github)</li>
-								<li>synthetic tree and taxonomy (neo4j)</li>
-								<li><strong>tree index</strong> (postgreSQL)</li>
-							</ul>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Interoperability via APIs</h2>
+					<h2>Using OpenTree data</h2>
 						<table>
 							<tbody>
 								<tr>
 									<td style="vertical-align:middle;"><img class="plain" width="200" src="assets/ropensci_main.png"></td>
-									<td style="vertical-align:middle;">rotl: R package wraps APIs</td>
+									<td style="vertical-align:middle;">rotl: R package wraps OPenTree APIs</td>
 								</tr>
 								<tr>
 									<td style="vertical-align:middle;"><img class="plain" width="250" src="assets/phylotastic.png"></td>
@@ -237,171 +158,12 @@
 						</table>
 					</section>
 
-					<section>
-						<h2>Other collaboration</h2>
-							<table>
-								<tbody>
-									<tr>
-										<td style="vertical-align:middle;"><img class="plain" width="200" src="assets/gbif.jpg"></td>
-										<td style="vertical-align:middle;">Providing taxonomy feedback</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:middle;"><img class="plain" width="200" src="assets/futurephy.jpg"></td>
-										<td style="vertical-align:middle;">Joint workshops, webinars</td>
-									</tr>
-								</tbody>
-							</table>
-						</section>
-
-				<section>
-					<h1>Community building</h1>
-				</section>
-
-				<section>
-					<h2>Tree-for-all hackathon</h2>
-					<p>U Michigan, September 2014</p>
-					<p>
-						<a href="https://github.com/OpenTreeOfLife/hackathon">https://github.com/OpenTreeOfLife/hackathon</a>
-					</p>
-					<ul>
-						<li>Invited people to build on our APIs</li>
-						<li>Participants from Arbor, rOpenSci, iDigBio, Supertree Toolkit,
-							IPNI, Atlas Living Australia, Fossil Calibration Database,
-							Species File Group</li>
-						</ul>
-				</section>
-
-				<section>
-					<h2>FuturePhy / Arbor / OpenTree workshop</h2>
-					<p>U Florida, February 2016</p>
-					<p>
-						<a href="https://blog.opentreeoflife.org/2016/03/09/futurephy-clade-workshops/">https://blog.opentreeoflife.org/2016/03/09/futurephy-clade-workshops/</a>
-					</p>
-					<ul>
-						<li>Clades: barnacles, catfishes, beetles</li>
-						<li>Participants: taxonomy, systematics, ecology, phylogenetic
-							methods, bioinformatics, genomes, ontologies, and
-							scientific illustration</li>
-						<li>Tested tree input, custom synthesis, conflict visualization</li>
-					</ul>
-				</section>
-
 				<section>
 					<h2>Demo!</h2>
 					<p>
 						<a href="https://tree.opentreeoflife.org" target="_blank">https://tree.opentreeoflife.org</a>
 					</p>
 				</section>
-
-				<section>
-					<h1>What could we do better?</h2>
-				</section>
-
-				<section>
-					<h2>Synthetic tree woefully underrepresents phylogenetic knowledge</h2>
-						<table>
-							<thead>
-								<tr>
-									<th>Clade</th>
-									<th>Tips</th>
-									<th>Phylo tips</th>
-									<th>% phylo</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Embryophyta</td>
-									<td>296,611</td>
-									<td>14,425</td>
-									<td>4.9%</td>
-								</tr>
-								<tr>
-									<td>Fungi</td>
-									<td>309,631</td>
-									<td>628</td>
-									<td>0.2%</td>
-								</tr>
-								<tr>
-									<td>Metazoa</td>
-									<td>1,467,443</td>
-									<td>21,323</td>
-									<td>1.5%</td>
-								</tr>
-								<tr>
-									<td>Insecta</td>
-									<td>979,709</td>
-									<td>3098</td>
-									<td>0.3%</td>
-								</tr>
-							</tbody>
-						</table>
-					</section>
-
-					<section>
-						<h2>Improving the tree</h2>
-						<p class="fragment">Incorporate more trees from phylesystem</p>
-						<p class="fragment">Import trees from TreeBASE, Dryad</p>
-						<p class="fragment">Scrape trees from images</p>
-						<p class="fragment">Incorporate more taxonomy feedback / resources</p>
-						<p class="fragment">Encourage more community input of trees</p>
-					</section>
-
-					<section>
-						<h2>OpenTree needs community curation</h2>
-						<p>Motivating producers of trees to contribute data</p>
-						<ul>
-							<li>Social motivation</li>
-								<ul>
-									<li>curator statistics, leaderboards</li>
-									<li>favorites, notifications</li>
-								</ul>
-							<li>Research services</li>
-								<ul>
-									<li>custom synthesis</li>
-									<li>conflict analysis</li>
-									<li>hosting</li>
-								</ul>
-							</ul>
-					</section>
-
-					<section>
-						<h2>More needed improvements</h2>
-						<p>
-							<a href="https://tree.opentreeoflife.org" target="_blank">https://tree.opentreeoflife.org</a>
-						</p>
-						<p class="fragment">Tree visualization</p>
-						<p class="fragment">Branch lengths / divergence times</p>
-						<p class="fragment">Links back to raw data (sequences, specimens)</p>
-						<p class="fragment">Greatly expanding dark parts of the tree</p>
-					</section>
-
-					<section>
-						<p>
-							<a href="http://www.scientificamerican.com/sciam/assets/Image/B060BD8C-BF9E-4683-8E29AA7B6B3F1689_landingbanner%20(1).jpg?shunter=1457194944393" target="_blank">
-							<img width="800" src="assets/sciam_circle_life_text.png"></a>
-							<p>Scientific American, March 2016</p>
-						</p>
-					</section>
-
-					<section>
-						<div class="ulist">
-							<img src="assets/Hug_otu_mapping.png" width="65%" style="float: left">
-							<ul style="width: 30%;">
-								<p>Need resources describing OTUs in microbial trees</p>
-								<p>(aka Tell Me More about “Prevotella dentalis ES 2772 DSM 3688”)</p>
-							</ul>
-						</div>
-					</section>
-
-					<section>
-						<h2>Summary</h2>
-						<p>Have process for curating and synthesizing phylogenetic
-							and taxonomic data into comprehensive tree of life</p>
-						<p>Have data and services available through APIs; in
-							use by biodiversity informatics community</p>
-						<p>Need to motivate participation of systematics community
-						 by providing tools and services</p>
-					</section>
 
 			</div>
 
